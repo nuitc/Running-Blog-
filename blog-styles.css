@@ -1,0 +1,247 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background: aliceblue;
+}
+
+header {
+  margin: auto;
+  min-width: 500px;
+  width: 80%;
+}
+p{
+  padding-top: 4px;
+}
+
+#runfix{
+  background-image: url(images/runner2-tiny.png);
+  float: left; 
+  height: 55px;
+  width: 100px;
+  background-repeat: repeat-y;
+  position: fixed;
+  margin-left: -9rem;
+ 
+}
+#title {
+  margin: auto;
+  width: 90%;
+}
+
+header h1 {
+  margin: auto;
+  width: 220px;
+}
+
+header p {
+  margin: auto;
+  width: 400px;
+}
+
+header nav {
+  border-radius: 0.4rem;
+  margin: 0.5rem auto;
+  padding: 0.2rem 1rem;
+  width: 140px;
+}
+
+nav, 
+nav ul,
+nav ol {
+  margin: 0;
+}
+
+a, a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: purple;
+}
+
+a:active {
+  color: red;
+}
+
+main {
+  background: white;
+  margin: 1rem auto;
+  min-width: 500px;
+  padding: 1rem;
+  width: 80%;
+}
+#one{
+  border: indigo 2px solid;
+  border-radius: 2rem;
+  background-image: url(images/runner2-tiny.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-clip: border-box;
+  margin-bottom: 5%;
+
+}
+#sections-nav {
+  background-color:cornsilk;
+  border: rgb(58, 58, 204) 5px solid;
+  border-radius: 0.5rem;
+}
+main nav {
+  background:rgb(171, 196, 220, 0.5);
+  border: darkorange 5px solid;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  width: 25%;
+  margin:12px auto 12px auto;
+}
+section h2{text-align: center;}
+
+section {
+  border-top: 0.2rem solid black;
+  padding: 1%;
+  width: 98%;
+}
+
+#best-running-tips{background-color: burlywood;}
+
+.pborder{
+  float: left;
+  margin: 1.4rem 10px 1rem 5px;
+  border: fuchsia 2.5px solid;
+  }
+.absolute{
+  position: absolute;
+  border: none;
+  left:50% ;
+  margin-top: 25px;
+}
+#run-a-marathon{background-color: burlywood;}
+
+.gborder{
+  float: right;
+  height: 30%;
+  width:15%;
+  margin:10px 7px 10px 7px;
+  border:rgb(51, 200, 6) 2px solid;
+}
+#run-a-marathon::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#runners-high{
+  background-color: rgba(224, 235, 80, 0.842);
+}
+#runners-high::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.orange:hover{
+  color: orange;
+  font-style: normal;}
+
+a:hover{
+  color: darkturquoise;
+  font-style: italic;
+}
+
+#featured h2{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+#best-health-tips{
+  background-color: rgba(224, 235, 80, 0.842);
+}
+article {
+  border: 1px solid black;
+  margin: 1rem auto;
+  padding: 0 0.5rem;
+  width: 96%;
+}
+article h3{
+  margin-left: 42%;
+  color: rgb(38, 129, 138);
+  text-decoration: underline;
+}
+article:target h3 {
+  text-decoration: underline;
+}
+
+a.back-to-top {
+  background: rgb(158, 170, 202);
+  border: rgb(70, 70, 100);
+  border-radius: 0.5rem;
+  border-style: none solid solid none;
+  border-width: 0 0.2rem 0.2rem 0;
+  color: navy;
+  display: block;
+  font-size: 1rem;
+  height: 20px;
+  margin: auto;
+  padding: 0.2rem;
+  text-decoration: none;
+  text-align: center;
+  width: 90px;
+  
+}
+
+a.back-to-top:active {
+  color:#cce;
+  border-width: 0 0.1rem 0.1rem 0;
+}
+
+#all article {
+  background: #cce;
+  height: 30px;
+  margin: 0.5rem auto 1rem auto;
+  overflow: hidden;
+  padding-right: 3rem;
+  padding-bottom: 15px;
+
+  width: 15%;
+}
+
+#all article:target {
+  background: white;
+  height: auto;
+  width: 80%;
+}
+
+#all article:target h3 a {
+  color: black;
+}
+
+footer {
+  background: lightgray;
+  font-size: medium;
+  font-style: italic;
+  min-width: 640px;
+  width: 100%;
+  margin: 0 -1rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+footer h2 {
+  padding-top: 0px;
+  padding-bottom: 1px;
+  margin: 0 0 -8px 0;
+  text-align: end; 
+}
+
+footer a img {
+  text-decoration: underline;
+  margin: 1rem 0 2px 0.4rem;
+  float: right;
+  padding-bottom: 2px;
+  
+}
+footer p{ text-align: left;
+margin-bottom: -.5%;}
